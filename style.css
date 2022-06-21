@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    border: 1px solid black;
+
+}
+.main{
+    height: 200px;
+    width: 200px;
+
+    border: 1px solid black;
+    background-color: red;
+    display: block;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+
+
+    padding: 10px 0;
+}
+#bt1{
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid black;
+    background-color: yellow;
+    display: inline-block;
+    cursor: pointer;
+}
+.botao:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#bt2{
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid black;
+    background-color: pink;
+    display: inline-block;
+    cursor: pointer;
+}
+#bt3{
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid black;
+    background-color: blue;
+    display: inline-block;
+    cursor: pointer;
+}
